@@ -26,6 +26,8 @@ The goal of this project is to maintain OpenCL wrapper libraries that
   * [OpenCL 3.0](https://github.com/opencl-go/cl30)
   * [OpenCL 2.2](https://github.com/opencl-go/cl22)
   * [OpenCL 1.2](https://github.com/opencl-go/cl12)
+* Examples
+  * [Basic](https://github.com/opencl-go/examples-basic)
 * [This page](https://opencl-go.github.io/)
 
 ## How-To guides
