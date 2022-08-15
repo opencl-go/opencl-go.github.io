@@ -11,4 +11,5 @@ It serves as the central information source, issue tracker, and discussion space
 
 ## Questions and general information
 
+* [Design principles](faq-design-principles.md)
 * [Alternative wrapper libraries](faq-alternatives.md)
