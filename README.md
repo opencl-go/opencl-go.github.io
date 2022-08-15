@@ -8,3 +8,7 @@ It serves as the central information source, issue tracker, and discussion space
 ## How-To guides
 
 * [How to install the OpenCL SDK](how-to-install-sdk.md)
+
+## Questions and general information
+
+* [Alternative wrapper libraries](faq-alternatives.md)
