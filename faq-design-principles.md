@@ -79,6 +79,28 @@ This documentation shall also take into account any Go-specific wrapping that to
 
 Refer to the Creative Commons licensed asciidoctor files from https://github.com/KhronosGroup/OpenCL-Docs when creating the abstract.
 
+## Level of abstraction (wrapping)
+
+There is no precise definition whether an abstraction should be provided, or not.
+The following points help in deciding to which degree the API stays true to the definition of OpenCL:
+
+* Avoid restricting an API in its capabilities.
+  For example, the function `SetKernelArg()` still allows to receive an arbitrary `unsafe.Pointer()` and the
+  caller needs to take care for the proper size. This is to ensure any future type can also be provided.
+  (Some alternative wrappers perform reflection on the given argument type to set the size.)
+* Handle and wrap C-memory/-pointer magic.
+  If the low-level API makes it too easy to perform memory-access-violations or mistakes, provide a convenience helper.
+  For example, the function `EnqueueNDRangeKernel()` takes a `[]WorkDimension` argument instead of one number-of-dimensions value and
+  three size-dependent vectors. Functions that work with callbacks are another good example - especially `EnqueueNativeKernel()`.
+* When in doubt, provide the low-level API and optionally convenience functions.
+  Primary example: `*Info()` functions and their `*InfoString()` equivalent.
+* Finally, the API requires further OpenCL-specific knowledge and cannot be used without.
+  A certain degree of understanding in the working with raw memory can be expected, hence also the
+  accepted exposure to `unsafe.Pointer()`.
+
+> To come back to the `SetKernelArg()` function and to stay in line with the above principles:
+> There would be potential for convenience functions such as `SetKernelArgUint32()`.
+
 ## Side effects and consequences
 
 Because of the taken decisions, the following side effects and consequences are the result:
