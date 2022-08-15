@@ -1,5 +1,7 @@
 # OpenCL wrapper libraries for Go
 
+<img width="100px" src="logo.png" alt="Logo showing four gophers in the colours of OpenCL logo"/>
+
 This repository is the central entry point for [OpenCL](https://www.khronos.org/opencl/) wrapper libraries for [Go](https://go.dev).
 It serves as the central information source, issue tracker, and discussion space.
 
@@ -34,3 +36,10 @@ The goal of this project is to maintain OpenCL wrapper libraries that
 
 * [Design principles](faq-design-principles.md)
 * [Alternative wrapper libraries](faq-alternatives.md)
+
+## Legal
+
+The wrapper libraries are licensed under the MIT license. See the `LICENSE` files in the respective repository.
+
+The logo of the opencl-go project is based on the original gopher mascot design by Renee French,
+licensed under the [Creative Commons Attribution 3.0 Unported](https://creativecommons.org/licenses/by/3.0/deed.en) license. 
