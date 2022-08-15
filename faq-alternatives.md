@@ -8,7 +8,7 @@ Listed properties may become out-of date, so double-check with the linked projec
 
 ## samuel/go-opencl
 
-* URL: https://github.com/samuel/go-opencl
+* URL: [https://github.com/samuel/go-opencl](https://github.com/samuel/go-opencl)
 * Last check of properties: 2022-08
 * Last update of project: 2017-11
 * Supported OpenCL version(s): 1.1 and 1.2 (one repository, build tags)
@@ -22,7 +22,7 @@ Object-details such as properties during creation or info-query are not supporte
 
 ## microo8/blackcl
 
-* URL: https://gitlab.com/microo8/blackcl
+* URL: [https://gitlab.com/microo8/blackcl](https://gitlab.com/microo8/blackcl)
 * Last check of properties: 2022-08
 * Last update of project: 2019-02
 * Supported OpenCL version(s): ?
@@ -33,7 +33,7 @@ This project is a more high-level wrapper as it hides some of OpenCL's concepts 
 
 ## MasterOfBinary/go-opencl
 
-* URL: https://github.com/MasterOfBinary/go-opencl
+* URL: [https://github.com/MasterOfBinary/go-opencl](https://github.com/MasterOfBinary/go-opencl)
 * Last check of properties: 2022-08
 * Last update of project: 2016-12
 * Supported OpenCL version(s): 2.0
@@ -43,7 +43,7 @@ Event waitList / return objects are not supported for `Enqueue*` calls;
 
 ## rainliu/gocl
 
-* URL: https://github.com/rainliu/gocl
+* URL: [https://github.com/rainliu/gocl](https://github.com/rainliu/gocl)
 * Last check of properties: 2022-08
 * Last update of project: 2016-09
 * Supported OpenCL version(s): 1.1, 1.2, 2.0 (one repository, build tags)
@@ -57,7 +57,7 @@ It contains several examples and demo applications.
 
 ## Patagonicus/opencl
 
-* URL: https://github.com/Patagonicus/opencl
+* URL: [https://github.com/Patagonicus/opencl](https://github.com/Patagonicus/opencl)
 * Last check of properties: 2022-08
 * Last update of project: 2017-03
 * Supported OpenCL version(s): 1.2
@@ -66,7 +66,7 @@ A low-level wrapper. The readme shows a list of intended functions, which is abo
 
 ## go-gl/cl
 
-* URL: https://github.com/go-gl/cl
+* URL: [https://github.com/go-gl/cl](https://github.com/go-gl/cl)
 * Last check of properties: 2022-08
 * Last update of project: 2016-04
 * Supported OpenCL version(s): 1.0, 1.1, 1.2 (one repository, different sub-packages)
