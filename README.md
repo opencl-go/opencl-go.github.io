@@ -7,6 +7,9 @@ It serves as the central information source, issue tracker, and discussion space
 
 > This GitHub organization is an open-source project and has no affiliation with Khronos Group.
 
+**The wrappers are not in a state to provide useful functionality and contain potential invalid memory access. The repository is archived and unmaintained.
+Please see [Maintenance Notice](https://github.com/opencl-go/opencl-go.github.io/discussions/25) for further details.**
+
 ## Motivation
 
 The goal of this project is to maintain OpenCL wrapper libraries that
